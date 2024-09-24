@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-JWT-Extended
+psycopg2-binary
+pytest
+pytest-flask
+psycopg2-binary
+python-dotenv
+Flasgger
