@@ -11,6 +11,9 @@ Este é um projeto Flask que utiliza SQLAlchemy, PostgreSQL e Docker para gerenc
 - Migrações de banco de dados com Flask-Migrate
 - Testes com Pytest
 
+## Endpoints
+-[Swagger](http://localhost:8000/apidocs/)
+
 ## Requisitos
 
 - [Docker](https://www.docker.com/)
@@ -52,9 +55,7 @@ docker-compose run web flask db migrate -m "Initial migration"
 docker-compose run web flask db upgrade
 ```
 
-## Swagger
 
-http://localhost:8000/apidocs/
 
 A aplicação estará rodando em http://localhost:8000.
 
